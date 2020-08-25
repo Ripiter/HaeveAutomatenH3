@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HæveAutomatenH3", "HæveAutomatenH3\HæveAutomatenH3.csproj", "{3DEE2305-867A-4548-8851-03708400A7A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatenTest", "AutomatenTest\AutomatenTest.csproj", "{83058E4E-1237-4617-AF81-4DFE145E9191}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DEE2305-867A-4548-8851-03708400A7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEE2305-867A-4548-8851-03708400A7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEE2305-867A-4548-8851-03708400A7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEE2305-867A-4548-8851-03708400A7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83058E4E-1237-4617-AF81-4DFE145E9191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83058E4E-1237-4617-AF81-4DFE145E9191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83058E4E-1237-4617-AF81-4DFE145E9191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83058E4E-1237-4617-AF81-4DFE145E9191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BCC2DE8-CC33-4F0D-903F-8C0386148960}
+	EndGlobalSection
+EndGlobal
