@@ -70,24 +70,11 @@ namespace HæveAutomatenH3
         internal void AddAccountToAccounts(Account account)
         {
             Accounts.Add(account);
-        }
-                
-        internal Card GenerateCard(Person person)
-        {
-            return new Card() { CardHolderName = person.Name, CardNumber = "2345", PinCode = 2345 };
-        }
+        }            
 
         internal Account GenerateAccount(Person person)
         {
-            Account account = new Account(person.UniqueID);
-
-            // Starting amount of money in the accout
-            account.AmountInAccount = 100;
-
-            // Add a new card to the account
-            account.Cards.Add(GenerateCard(person));
-
-            return account;
+            return new AccountFactory().Generate(person);
         }
     }
 }

@@ -25,7 +25,7 @@ namespace AutomatenTest
 
             bool actual = person.PersonalAccount.CanWithdraw(withdraw); 
 
-            ////Asert
+            // Asert
             Assert.Equal(expected, actual);
         }
 

@@ -43,9 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
+    <Compile Include="AccountFactory.cs" />
     <Compile Include="Bank.cs" />
     <Compile Include="Card.cs" />
+    <Compile Include="CardFactory.cs" />
     <Compile Include="CustomerDatabase.cs" />
+    <Compile Include="IFactory.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
