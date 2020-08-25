@@ -8,7 +8,13 @@ namespace HæveAutomatenH3
 {
     public class Bank
     {
-        public List<Account> Accounts = new List<Account>();
+        private List<Account> accounts = new List<Account>();
+
+        public List<Account> Accounts
+        {
+            get { return accounts; }
+            set { accounts = value; }
+        }
 
         public Bank()
         {
@@ -16,8 +22,7 @@ namespace HæveAutomatenH3
             CustomerDatabase customerDatabase = new CustomerDatabase();
             Accounts = customerDatabase.GetAccounts();
         }
-
-
+        
         public Account GetAccount(uint userID)
         {
             for (int i = 0; i < Accounts.Count; i++)
