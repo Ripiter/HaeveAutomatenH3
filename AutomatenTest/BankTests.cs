@@ -35,7 +35,7 @@ namespace AutomatenTest
             bool expected = true;
 
             // Act
-            bool actual = bank.CanWithDraw(0, 10);
+            bool actual = bank.CanWithdraw(0, 10);
 
             // Asert
             Assert.Equal(expected, actual);

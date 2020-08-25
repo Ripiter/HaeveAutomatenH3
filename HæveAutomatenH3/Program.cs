@@ -22,7 +22,7 @@ namespace HæveAutomatenH3
             {
                 Console.WriteLine("Correct pin code");
 
-                if(bank.CanWithDraw(person.UniqueID, amountToWithDraw))
+                if(bank.CanWithdraw(person.UniqueID, amountToWithDraw))
                 {
                     Console.WriteLine(bank.Withdraw(person.UniqueID, amountToWithDraw));
                 }

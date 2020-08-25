@@ -31,6 +31,5 @@ namespace HæveAutomatenH3
             get { return pinCode; }
             set { pinCode = value; }
         }
-
     }
 }

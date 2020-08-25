@@ -64,7 +64,5 @@ namespace AutomatenTest
             
             Assert.Equal(expected, actual);
         }
-
-
     }
 }

@@ -18,7 +18,7 @@ namespace HæveAutomatenH3
 
         public Bank()
         {
-            // TODO: Change customer database to real database
+            // TODO: Change customerdatabase to real database
             CustomerDatabase customerDatabase = new CustomerDatabase();
             Accounts = customerDatabase.GetAccounts();
         }
@@ -33,7 +33,7 @@ namespace HæveAutomatenH3
             return null;
         }
 
-        public bool CanWithDraw(uint userID, float amountToWithdraw)
+        public bool CanWithdraw(uint userID, float amountToWithdraw)
         {
             return GetAccount(userID).CanWithdraw(amountToWithdraw);
         }
@@ -72,12 +72,12 @@ namespace HæveAutomatenH3
             return person.PersonalAccount;
         }
 
-        internal void AddAccountToAccounts(Account account)
+        private void AddAccountToAccounts(Account account)
         {
             Accounts.Add(account);
         }            
 
-        internal Account GenerateAccount(Person person)
+        private Account GenerateAccount(Person person)
         {
             return new AccountFactory().Generate(person);
         }
